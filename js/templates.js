@@ -3,12 +3,12 @@ const footer = document.getElementById("footer");
 
 header.innerHTML = '<h3>My Portfolio</h3>'+
                     '<nav>'+
-                        '<div><a href="#top">Home</a></div>'+
+                        '<a href="#top"><div>Home</div></a>'+
                         '<p>&#9679;</p>'+
-                        '<div><a href="#work">Work</a></div>'+
+                        '<a href="#work"><div>Work</div></a>'+
                         '<p>&#9679;</p>'+
-                        '<div><a href="#about">About</a></div>'+
+                        '<a href="#about"><div>About</div></a>'+
                         '<p>&#9679;</p>'+
-                        '<div><a href="#contact">Contact</a></div>'+
+                        '<a href="#contact"><div>Contact</div></a>'+
                     '</nav>';
 //footer.innerHTML = '';

@@ -1,0 +1,135 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: #38250b;
+    font-family: 'Sarabun', sans-serif;
+}
+
+nav {
+    border-top: 1px solid #38250b;
+}
+
+a {
+    color: inherit;
+	text-decoration: none;
+}
+
+a:hover {
+    color: inherit;
+    font-size: 15px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+table {
+    background-color: #bde1f1;
+    color: #38250b;
+}
+
+footer {
+    background-color: #f3bece;
+    padding: 1em;
+}
+
+/* General Classes */
+
+.border-line {
+    border-bottom: 1.8px #38250b solid;
+}
+
+.btn {
+    background-color: #e5f8f4;
+    border: #bde1f1 2px;
+}
+
+.btn:hover {
+    background-color: #cdf2ea;
+}
+
+.space {
+    padding-bottom: 0.5em;
+}
+
+.logofont {
+    font-family: 'Berkshire Swash', cursive;
+}
+
+/* Section 1 */
+
+.section1 {
+    background-color: #f3bece;
+    padding: 1em;
+}
+
+/* Section 2 */
+
+.section2 {
+    background-color: #bde1f1;
+}
+
+.section2-contact {
+    background-color: #fee2ee;
+    padding: 1em;
+}
+
+.section2-img {
+    height: 400px;
+    background-image: url(../images/divider.jpg);
+    background-size: cover;
+    
+}
+
+.section2-text {
+    padding: 1em 0 0 3em;
+    font-size: 20px;
+}
+
+.section2-h5 {
+    font-size: 26px;
+}
+
+.shape-divider {
+    -webkit-clip-path: polygon(4% 0, 100% 0, 100% 100%, 25% 100%); 
+    clip-path: polygon(4% 0, 100% 0, 100% 100%, 25% 100%);
+ }
+
+ .section2-about {
+    background-color: #bde1f1;
+    padding: 1em;
+    font-size: 18px;
+}
+
+/* Section 3 */
+
+.section3 {
+    background-color: #e5f8f4;
+    padding: 1em;
+}
+
+.card {
+    background-color: #f3bece;
+}
+
+.img-thumbnail {
+    background-color: #f3bece;
+}
+
+.section3-contact {
+    background-color: #bde1f1;
+    padding: 1em;
+    font-size: 20px;
+}
+
+.section3-contactimage {
+    width: 20%;
+    height: 20%;
+}
+
+/* Section 4 */
+.section4 {
+    background-color: #fee2ee;
+    padding: 1em;
+}

@@ -1,0 +1,334 @@
+/* ------------------------------ 
+   -------- General Styles -------
+   ------------------------------ */
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
+}
+
+main {
+    font-family: 'Noto Sans JP', sans-serif;
+    background-color: #F8F9FA;
+}
+
+div a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.btn-primary {
+    background-color: #007F4E !important;
+    color: white !important;
+    border: 1px solid #007F4E !important ;
+}
+
+.btn-primary:hover {
+    background-color: #01945b !important;
+    transition: 0.3s;
+}
+
+i {
+    padding-top: 0.5em;
+}
+
+
+/* ------------------------------ 
+   -------- Header Styles -------
+   ------------------------------ */
+
+
+/* Site title block */
+
+.title-block {
+    background-color: #e93b3e;
+    color: white;
+    padding: 1em;
+}
+
+.input-fix {
+    margin-top: 0.5em;
+}
+
+.sitename {
+    font-family: 'Overlock', cursive;
+    font-weight: 700;
+}
+
+/* Navbar */
+.navbar {
+    border: 0  !important;
+    margin: 0  !important;
+    padding: 0  !important;
+}
+
+.nav-container {
+    background-color: #72b043 !important;
+}
+
+.navitem {
+    padding: 0.8em;
+    background-color: #72b043e7;
+    color: black;
+}
+
+.navitem:hover {
+    background-color: #86cc51;
+    transition: 0.3s;
+}
+
+.navbar-toggler {
+    margin-top: 0.5em !important;
+    margin-bottom: 0.5em !important;
+}
+
+/* ------------------------------ 
+   -------- Main: Home Pg -------
+   ------------------------------ */
+
+/* Sale Section */
+
+.saleouter {
+    background-color: #f88c49;
+    padding: 2em;
+    box-shadow: 5px 0 5px -2px rgba(0, 0, 0, 0.397);
+}
+
+.img-move {
+    position: relative;
+    left: 20%;
+    box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.397), 0 6px 20px 0 rgba(0, 0, 0, 0.397);
+}
+
+.saleinner {
+    background-color: #fcd94d;
+    padding: 2em;
+    padding-right: 5em;
+    font-size: 20px;
+}
+
+.saleDisplay {
+    font-family: 'Racing Sans One', cursive;
+    font-size: 80px;
+    text-decoration: underline;
+}
+
+/* Carousel Section */
+
+.carousel-section {
+    padding: 3em;
+    border: solid 4px black;
+    border-left: none;
+    border-right: none;
+}
+
+.homecarousel {
+    padding: 1em;
+}
+
+div .card {
+    margin: 1em;
+    padding: 1em;
+    background-color: #71b33eef;
+}
+
+/* Newsletter Section */
+
+.newsletter {
+    background-color: #f88c49;
+    padding: 2em 5em 5em 5em; 
+}
+
+.newscontainer {
+    background-color: #f88c49;
+    border-radius: 2em;
+    padding: 2em;
+}
+
+/* ------------------------------ 
+   -------- Main: About Pg ------
+   ------------------------------ */
+
+/* About Section */
+
+.aboutsection1 {
+    background: no-repeat url(../images/section1bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 25em;
+}
+
+.aboutsection2 {
+    background-color: #fcd94d;
+    padding: 3em;
+    font-size: 40px;
+}
+
+.aboutsection3 {
+    font-size: 20px;
+    padding: 2em;
+}
+
+#aboutCarousel {
+    border-left: black 2px solid;
+    padding: 1em;
+}
+
+/* ------------------------------ 
+   -------- Main: unsub page ----
+   ------------------------------ */
+
+.unsub-bg {
+    padding: 2em;
+}
+
+
+/* ------------------------------ 
+   -------- Main: Contact Pg ----
+   ------------------------------ */
+
+.contactsection1 {
+    background: no-repeat url(../images/160.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 12em 0 12em 0;
+}
+
+.contactsection1 h1 {
+    font-weight: 800;
+    font-size: 40px;
+}
+
+.contactsection2 {
+    padding: 2em;
+    background-color: #f88c49;
+}
+
+.contactsection2 fieldset {
+    background-color: #fcd94d;
+    padding: 1em;
+    border: none;
+}
+
+.formdescription {
+    padding: 2em;
+}
+
+h1 mark {
+    background-color: #86cc51;
+}
+
+/* ------------------------------ 
+   -------- Main: Shop Pg -------
+   ------------------------------ */
+
+.shop-sidebar {
+    background-color: #f88c49;
+}
+
+.tablePadding {
+    padding: 1em;
+}
+
+.shop-content {
+    background-color: #fff;
+    padding: 2em;
+}
+
+/* ------------------------------ 
+   -------- Main: Product pg ----
+   ------------------------------ */
+
+.image-section {
+    background-color: #f88c49;
+    padding: 1em;
+    padding-top: 4em;
+    padding-bottom: 12em;
+}
+
+.product-details {
+    background-color: #F8F9FA;
+    padding: 1em;
+    padding-bottom: 13em;
+}
+
+
+/* ------------------------------ 
+   -------- Main: Cart pg -------
+   ------------------------------ */
+
+.cartContent {
+    background-color: #F8F9FA;
+    height: 80%;
+    width: 67%;
+    overflow: auto;
+}   
+
+.ordersum {
+    background-color: #f88c49;
+    padding-right: 1em;
+}
+
+
+/* ------------------------------ 
+   -------- Footer Styles -------
+   ------------------------------ */
+
+.footerStyles {
+    background-color: #e93b3e;
+    color: white;
+    padding: 2em;
+    position: relative;
+    bottom: 0;
+}
+
+.linedivider {
+    border-bottom: 2px solid white;
+    padding: 0.5em 0 0 0.5em;
+}
+
+/* ------------------------------ 
+   -------- Responsive Edits ----
+   ------------------------------ */
+
+@media screen and (max-width: 991px) {
+    #buttonset1 {
+        margin-left: .5em;
+    }
+
+    #buttonset2 {
+        margin-left: 0.0001em;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    #aboutCarousel {border: none; padding: 1em; }
+}
+
+@media screen and (max-width: 767px) {
+    .sitename {text-align: center;}
+    .img-move {/* left:10%; width: 80%;*/ display: none;}
+    .saleouter {display: none;}
+    .sm-center{text-align: center; padding:1em;}
+    .aboutsection2 { font-size: 35px;}
+    .sale-section { background-color: #fcd94d; }
+    #carousel-btn1{ display: none;}
+    #carousel-btn2 {display:none;}
+}
+
+@media screen and (max-width:634px) {
+    h1 mark {
+        line-height: 2;
+        text-justify: distribute;
+        background-color: #86cc51;
+    }
+}
+
+@media screen and (max-width: 567px) {
+    .aboutsection2 { font-size: 20px;}
+}
+

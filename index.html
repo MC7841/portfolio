@@ -1,27 +1,22 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
-        <meta name="viewport" content="width=device-width" intial-scale="1">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta charset="utf-8">
         <title>Home</title>
         <!--CSS Links-->
         <link rel="stylesheet" type="text/css" href="css/index.css">
         <!--Font Links-->
+        <script src="https://kit.fontawesome.com/9a0579c196.js" crossorigin="anonymous"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet"> 
         <!--JavaScript Links-->
         <script src="js/templates.js" type="text/javascript" defer></script>
     </head>
     <body>
         <header id="header">
-            <!--<h3>My Portfolio</h3>
-            <nav>
-                <div><a href="#">Home</a></div>
-                <p>&#9679;</p>
-                <div><a href="#">Work</a></div>
-                <p>&#9679;</p>
-                <div><a href="#">About</a></div>
-                <p>&#9679;</p>
-                <div><a href="#">Contact</a></div>
-            </nav>-->
+            <!--Header template loads here-->
         </header>
         <main>
             <section id="top" class="home-intro">
@@ -30,10 +25,56 @@
                     I'm a recent college graduate from Stark State College who's currently on the hunt for a web developer internship. I'm looking 
                     to challenge my current knowledge by supporting other teams or projects.
                 </p>
-                <a src="#" class="btn">Check out my Work!</a>
             </section>
             <section id="work" class="work">
-
+                <div class="container">
+                    <h1>My Projects</h1>
+                <p>These are projects that I've worked on while in school.</p>
+                </div>
+                <div class="container-2">
+                    <!--Card 1-->
+                    <div class="card">
+                        <div class="card-img">
+                            <img src="images/le-thumbnail.PNG" alt="Thumbnail image of website." width="100%" height="auto"> 
+                        </div>
+                        <div class="card-body">
+                            <h4>Lighthouse Excursions</h4>
+                            <p>One of my first projects about a travel agency company.</p>
+                            <a class="card-btn" href="projects/lighthouseexcursions/index.html">View &#8594;</a>
+                        </div>
+                        <div class="card-footer">
+                            <a href="#"><i class="fa-brands fa-github"></i></a>
+                        </div>
+                    </div>
+                    <!--Card 2-->
+                    <div class="card">
+                        <div class="card-img">
+                            <img src="images/sdb-thumbnail.PNG" alt="Thumbnail image of website." width="100%" height="auto"> 
+                        </div>
+                        <div class="card-body">
+                            <h4>Sweet Dreams Bakery</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, aliquid? Odit nostrum neque numquam</p>
+                            <a class="card-btn" href="projects/sweetdreamsbakery/index.html">View &#8594;</a>
+                        </div>
+                        <div class="card-footer">
+                            <a href="#"><i class="fa-brands fa-github"></i></a>
+                        </div>
+                    </div>
+                    <!--Card 3-->
+                    <div class="card">
+                        <div class="card-img">
+                            <img src="images/lss-thumbnail.PNG" alt="Thumbnail image of website." width="100%" height="auto"> 
+                        </div>
+                        <div class="card-body">
+                            <h4>Lucky Star Spices</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, aliquid? Odit nostrum neque numquam</p>
+                            <a class="card-btn" href="projects/luckystarspices/home.php">View &#8594;</a>
+                        </div>
+                        <div class="card-footer">
+                            <a href="#"><i class="fa-brands fa-github"></i></a
+                        </div>
+                    </div>
+                </div>
             </section>
             <section id="about" class="about">
 
@@ -44,7 +85,7 @@
             
         </main>
         <footer id="footer">
-            <!--Insert template here-->
+            <!--Footer template loads here-->
         </footer>
     </body>
 </html>
