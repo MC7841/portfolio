@@ -234,4 +234,5 @@ a {
     nav {flex-direction: column; height: 10rem;}
     .about-content {margin: 2rem;}
     .contact-row {flex-direction: column;}
+    .dot {display: none; height: 1rem;}
 }
