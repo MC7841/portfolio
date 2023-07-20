@@ -209,30 +209,23 @@ a {
 
 /* Responsive Styles */
 
-@media (max-width: 900px) {
+@media (max-width:1288px) {
     .home-intro{padding: 1rem; height: 50vh;}
     .work {height:50%; padding: 1rem;}
     .container-2 {flex-direction: column;}
+    .about {height: 60%; padding: 1rem;}
+    .contact {height: 60%;}
 }
 
 @media  (max-width:800px) {
    header {flex-direction: column;}
    header h3 {margin-top: 1rem;}
    nav a {width: 6rem;}
+   .card {width: 80%; height: 50%;}
+   .about-content {margin: 3rem;}
 }
 
 @media (max-width:400px) {
     nav {flex-direction: column; height: 10rem;}
-    .card {width: 60%; height: 50%;}
-}
-
-.work {
-    
-    background-color: lightcyan;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 2rem;
-    font-size: 20px;
+    .about-content {margin: 2rem;}
 }
