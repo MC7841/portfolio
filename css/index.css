@@ -7,15 +7,10 @@
 html, body {
     height: 100%;
     scroll-behavior: smooth;
-    color: #2B151B;
+    color: #1B0202;
 }
 
 body {
-    background-color: #A44D01;
-    background-color: #E89331;
-    background-color: #A0736E;
-    background-color: #562236;
-    background-color: #2B151B;
     padding-top: 4rem;
     font-family: 'Rubik', sans-serif;
 }
@@ -80,7 +75,6 @@ a {
 .work {
     height: 100vh;
     background-color: #A0736E;
-    color: #000;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -135,13 +129,14 @@ a {
 }
 
 .card-btn {
-    background-color: #65d9ff;
+    background-color: #562236;
+    color: #fff;
     padding: .2rem;
     transition: .5s ease-in-out;
 }
 
 .card-btn:hover {
-    background-color: #e0f7ff;
+    background-color: #97536d;
 }
 
 .card-footer {
@@ -160,7 +155,8 @@ a {
 
 .about {
     height: 100vh;
-    background-color: rebeccapurple;
+    background-color: #C47389;
+    color: #010002;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -181,7 +177,7 @@ a {
 
 .contact {
     height: 100vh;
-    background-color: skyblue;
+    background-color: #E89331;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -197,7 +193,7 @@ a {
 }
 
 .contact-btn {
-    background-color: #eb3681;
+    background-color: #562236;
     font-size: 60px;
     width: 6rem;
     text-align: center;
@@ -206,13 +202,14 @@ a {
 }
 
 .contact-btn:hover {
-    background-color: #ffc8df;
+    background-color: #97536d;
     transform: scale(1.5);
 }
 
 .contact-btn i {
     font-size: 60px;
-    text-align: center;
+    text-align: center; 
+    color: #fff;
 }
 
 /* Responsive Styles */
