@@ -7,16 +7,22 @@
 html, body {
     height: 100%;
     scroll-behavior: smooth;
+    color: #2B151B;
 }
 
 body {
-    background-color: blanchedalmond;
+    background-color: #A44D01;
+    background-color: #E89331;
+    background-color: #A0736E;
+    background-color: #562236;
+    background-color: #2B151B;
     padding-top: 4rem;
     font-family: 'Rubik', sans-serif;
 }
 
 header {
-    background-color: deepskyblue;
+    background-color: #562236;
+    color: #fff;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -46,7 +52,7 @@ nav a {
 }
 
 nav a:hover {
-    background-color: #65d9ff;
+    background-color: #944e69;
 }
 
 nav p {
@@ -63,7 +69,7 @@ a {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: aliceblue;
+    background-color: #E89331;
     padding: 8rem 10rem 8rem 10rem;
     gap: 1rem;
     font-size: clamp(20px, 1vw, 25px);
@@ -73,7 +79,8 @@ a {
 
 .work {
     height: 100vh;
-    background-color: lightcyan;
+    background-color: #A0736E;
+    color: #000;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -96,7 +103,7 @@ a {
 }
 
 .card {
-    background-color: #0c663c;
+    background-color: #e9e7e7;
     display: flex;
     flex-direction: column;
     width: 25rem;
@@ -105,6 +112,7 @@ a {
     border-radius: 3%;
     font-size: clamp(16px, 1vw, 25px);
     overflow: hidden;
+    border: #562236 solid 3px;
 }
 
 .card-img {
@@ -138,7 +146,7 @@ a {
 
 .card-footer {
     margin: .5rem;
-    border-top: #fff solid 2px;
+    border-top: #562236 solid 2px;
     margin-top: auto;
 }
 
