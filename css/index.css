@@ -70,11 +70,11 @@ a {
     gap: 1rem;
     font-size: clamp(20px, 1vw, 25px);
     text-align: center;
-    height: 100vh;
+    height: 100dvh;
 }
 
 .work {
-    height: 100vh;
+    height: 100dvh;
     background-color: #A0736E;
     display: flex;
     flex-direction: column;
@@ -95,6 +95,7 @@ a {
     flex-direction: row;
     align-items: center;
     gap: 2rem;
+    overflow: scroll;
 }
 
 .card {
@@ -111,7 +112,6 @@ a {
 }
 
 .card-img {
-    
     margin: .5rem;
 }
 
@@ -156,7 +156,7 @@ a {
 }
 
 .about {
-    height: 100vh;
+    height: 100dvh;
     background-color: #C47389;
     color: #010002;
     display: flex;
@@ -178,7 +178,7 @@ a {
 }
 
 .contact {
-    height: 100vh;
+    height: 100dvh;
     background-color: #E89331;
     display: flex;
     flex-direction: column;
@@ -217,10 +217,10 @@ a {
 /* Responsive Styles */
 
 @media (max-width:1350px) {
-    .home-intro{padding: 1rem; height: 50vh;}
-    .work {height:50%; padding: 2rem;}
-    .about {height: 60%; padding: 1rem;}
-    .contact {height: 80%; padding: 2rem;}
+    .home-intro{padding: 1rem;}
+    .work {padding: 2rem; height:auto;}
+    .about {padding: 1rem;}
+    .contact {padding: 2rem;}
 }
 
 @media (max-width:1288px) {
@@ -238,7 +238,7 @@ a {
 }
 
 @media (max-width:400px) {
-    nav {flex-direction: column; height: 10rem;}
+    nav {flex-direction: column; height: 2rem; overflow: scroll;}
     .about-content {margin: 2rem;}
     .contact-row {flex-direction: column;}
     .dot {display: none;}
