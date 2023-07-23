@@ -111,13 +111,14 @@ a {
 }
 
 .card-img {
-    max-width: 100%;
-    height: auto;
+    
     margin: .5rem;
 }
 
 .card-img img {
     border-radius: 3%;
+    max-width: 100%;
+    height: auto;
 }
 
 .card-body {
